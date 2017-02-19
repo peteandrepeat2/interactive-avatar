@@ -1,7 +1,7 @@
 var x = [];
 
 function setup(){  
-  createCanvas(600, 500);
+  createCanvas(windowWidth,windowHeight);
       background(255, 0, 0);
 }
 

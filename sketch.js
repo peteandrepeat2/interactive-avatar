@@ -4,6 +4,9 @@ function setup(){
   createCanvas(windowWidth,windowHeight);
       background(255, 0, 0);
 }
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
 
 var bloog = 0
 var bloog1 = bloog + 2
